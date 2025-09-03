@@ -8,6 +8,7 @@
     --border-color: #00000026;
     --border-hover-color: #00000052;
     --border-active-color: #00000073;
+    --padding-10: 10px;
     --padding-15: 15px;
     --padding-20: 20px;
     --padding-30: 30px;
@@ -24,4 +25,9 @@
 
 a {
     text-decoration: none;
+}
+
+main {
+    max-width: 80vw;
+    margin: auto;
 }

@@ -22,7 +22,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    max-width: 95%;
+    max-width: 90%;
     gap: 60px;
 }
 
@@ -55,6 +55,7 @@ nav ul li a {
             color: white;
             font-size: 3rem;
             margin-bottom: 40px;
+            text-align: right;
         }
         
         a {

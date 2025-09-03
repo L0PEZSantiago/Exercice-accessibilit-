@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="icon" href="/images/favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temps danse</title>
-    <script src="./scripts/home.js" type="module" defer></script>
-    <script src="./scripts/navbar.js" type="module" defer></script>
+    <title>Inscription</title>
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/inscription.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <script src="./scripts/inscription.js" type="module" defer></script>
+    <script src="./scripts/navbar.js" type="module" defer></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="/index.html" aria-current="page">Accueil</a></li>
+                <li><a href="./" aria-current="page">Accueil</a></li>
                 <li><a href="/cours.html">Cours</a></li>
                 <li><a href="/tarifs.html">Tarifs</a></li>
                 <li><a href="/professeurs.html">Professeurs</a></li>
@@ -29,25 +28,34 @@
             <video src="./videos/8281173-hd_1920_1080_24fps.mp4" aria-hidden="true" autoplay muted loop type="video/mp4"></video>
             <div class="hero-content">
                 <h1>Des cours pour tous, des stages pour les passionnés</h1>
-                <a href="/inscription.html" class="btn">S'inscrire</a>
             </div>
         </div>
     </header>
     <main>
-        <section id="evenements" aria-labelledby="evenements-title">
-            <h2 id="evenements-title">Événements à venir</h2>
-            <div id="evenements-list">
-
-
+        <h2>Inscription</h2>
+        <form>
+            <div class="nom">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom">
             </div>
-        </section>
 
-        <section id="equipe" aria-labelledby="notre-equipe">
-            <h2 id="notre-equipe">Notre équipe</h2>
-            <div id="equipe-list">
-
+            <div class="prenom">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom">
             </div>
-        </section>
+
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="motdepasse">
+                <label for="motdepasse">Mot de passe</label>
+                <input type="password" id="motdepasse" name="motdepasse">
+            </div>
+
+            <button type="submit">S'inscrire</button>
+        </form>
     </main>
     <footer>
         <p>Temps danse © 2025 - Tous droits réservés</p>
