@@ -2,10 +2,10 @@ import { Evenement } from "./Classes/Evenement.js";
 import { Professeur } from "./Classes/Professeur.js";
 
 export const professeurs = [
-    new Professeur("Doe", "John", "Bio de John Doe", "/images/professeurs/john.jpg", ["Tango", "Salsa"]),
-    new Professeur("Berger", "Cynthia", "Bio de Cynthia Berger", "/images/professeurs/cynthia.jpg", ["Kizomba", "Bachata"]),
-    new Professeur("Martin", "Maëlle", "Bio de Maëlle Martin", "/images/professeurs/maëlle.jpg", ["Samba"]),
-    new Professeur("Dupont", "Richard", "Bio de Richard Dupont", "/images/professeurs/richard.jpg", ["Bachata", "Salsa"]),
+    new Professeur("Doe", "John", "Bio de John Doe", "images/professeurs/john.jpg", ["Tango", "Salsa"]),
+    new Professeur("Berger", "Cynthia", "Bio de Cynthia Berger", "images/professeurs/cynthia.jpg", ["Kizomba", "Bachata"]),
+    new Professeur("Martin", "Maëlle", "Bio de Maëlle Martin", "images/professeurs/maëlle.jpg", ["Samba"]),
+    new Professeur("Dupont", "Richard", "Bio de Richard Dupont", "images/professeurs/richard.jpg", ["Bachata", "Salsa"]),
 ];
 
 export const evenements = [
