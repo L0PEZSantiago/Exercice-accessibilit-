@@ -1,0 +1,94 @@
+.evenements, .equipe {
+    min-height: 1600px;
+}
+
+main {
+    max-width: 80vw;
+    margin: auto;
+
+    /* EVENEMENTS */
+    #evenements, #equipe {
+        padding: var(--padding-30);
+
+        h2 {
+            margin: 40px 0;
+            font-size: 2rem;
+        }
+    }
+
+    #evenements-list {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    article.evenement {
+        display: flex;
+        gap: 50px;
+        background-color: rgba(128, 128, 128, 0.233);
+        padding: var(--padding-30);
+
+        .evenement-infos-and-btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        h3 {
+            color: #6c4602d7;
+        }
+        .evenement-date {
+            font-style: italic;
+        }
+
+        .evenement-description {
+            margin-top: 15px;
+        }
+
+        img {
+            max-width: 180px;
+            object-fit: cover;
+        }
+
+        a {
+            padding: var(--padding-btn);
+            background-color: var(--accent-color);
+            color: white;
+            transition: all 0.2s ease-in-out;
+            width: fit-content;
+
+            &:hover {
+                background-color: var(--btn-active-color);
+            }
+        }
+    }
+
+
+
+}
+
+
+/* EQUIPE */
+#equipe-list {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.professeur-content {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.233);
+    gap: 5px;
+    padding: var(--padding-20);
+    min-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+
+    h3 {
+        color: #6c4602d7;
+        border-bottom: 1px solid #6c4602d7;
+        padding-bottom: 5px;
+    }
+}

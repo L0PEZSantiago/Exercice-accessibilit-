@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #ffffff;
+    --text-color: #000000d7;
+    --background-color: #ffffffb9;
+    --li-hover-color: #fcb63e;
+    --accent-color: #6c4602d7;
+    --btn-active-color: #c88200;
+    --border-color: #00000026;
+    --border-hover-color: #00000052;
+    --border-active-color: #00000073;
+    --padding-15: 15px;
+    --padding-20: 20px;
+    --padding-30: 30px;
+    --padding-btn: 10px 35px;
+    --border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
